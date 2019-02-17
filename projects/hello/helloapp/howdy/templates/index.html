@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" >
+  <script src="{%static js/script.js}"></script>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href=" ">Home</a >
+      <!--a href="/index2/">Seller</a -->
+      <a href="{% url 'post_new' %}">Seller</a>
+      <a href="/index3/">Buyer</a >
+    </div>
+    <div id="header";style="padding-left:16px">
+      <h2>NYUSH varifiable textbook</h2>
+    </div>
+    <div id="content">
+      <p>Welcome!</p ><br>
+      <p>This website is designed to help with buying and selling verifiable textsbooks at NYU Shanghai. </p ><br>
+      <p>If you are a seller, you can post the detailed info about the books you want to sell and buyers will contact you if they wish to buy. Click the seller button above and get started!</p ><br>
+      <p>If you are a buyer, you can search the books you want to buy and contact the seller directly! Click the buyer button above and get started!</p >
+    </div>
+
+
+
+</body>
+</html>

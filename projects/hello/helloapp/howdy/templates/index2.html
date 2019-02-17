@@ -1,0 +1,55 @@
+{% load static %}
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="{% static 'css/style2.css' %}" rel="stylesheet">
+  <script src="{%static js/script.js}"></script>
+  <a href="{% url 'post_new' }"
+  </head>
+  <body>
+
+  <div class="topnav">
+    <a class="active" href="/">Home</a>
+    <a href="/index2/">Seller</a>
+    <a href="/index3/">Buyer</a>
+    <input type="text" placeholder="Search..">
+  </div>
+
+
+
+  <div class="main-content printed">
+  <div class="header"> <span>Textbook Details</span></div>
+  <div class="id__wrapper">
+    <div class="deco"></div>
+    </label>
+    <div class="name">
+      <label>Seller Full Name</label>
+      <input class="full"/>
+    </div>
+    <div class="job">
+      <label>Textbook Title</label>
+      <input class="full"/>
+    </div>
+    <div class="country">
+      <label>Description(Edition,Notes...)</label>
+      <input class="full"/>
+    </div>
+    <div class="twitter">
+      <label>Price</label>
+      <input class="full" value=""/>
+    </div>
+    <div class="codepen">
+      <label>WECHAT ID</label>
+      <input class="full" value=""/>
+    </div>
+
+  </div>
+</div>
+<aside class="context">
+  <div class="explanation">
+    <div class="js-switch">Submit</div>
+  </div>
+</aside>
+
+
+</body></html>
